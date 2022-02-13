@@ -1,0 +1,322 @@
+*{
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+    
+}
+
+#bord1{
+    position: fixed;
+    border: #808080 solid ;
+    background: #808080;
+    animation-name: bordername;
+    animation-duration: 3.2s;
+    animation-direction: alternate;
+    animation-iteration-count: 1;
+    opacity: 0;
+    bottom: 0%;
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    height: 0px;
+    
+}
+#bord2{
+position: fixed;
+border: #a0a0a0 solid ;
+background: #a0a0a0;
+animation-name: bordername2;
+animation-duration: 2.9s;
+animation-direction: alternate;
+animation-iteration-count: 1;
+animation-delay: 0.2s;
+opacity: 0;
+bottom: 0px;
+
+width: 100%;
+height: 0px;
+bottom: 0%;
+left: 0%;
+right: 0%;
+
+
+}
+#bord3{
+position: fixed;
+border: #E0E0E0 solid ;
+background: #E0E0E0;
+animation-name: bordername3;
+animation-duration: 2.6s;
+animation-direction: alternate;
+animation-iteration-count: 1;
+animation-delay: 0.2s;
+opacity: 0;
+
+width: 100%;
+height: 500px;
+bottom: 0%;
+left: 0%;
+right: 0%;
+}
+.intro{
+  text-align: center;
+  align-items: left;
+  animation-name: delay;
+  animation-delay: 0.1s;
+  font-family: 'Permanent Marker', cursive;
+  color:#003300 ;
+  position: relative;
+  top: 40%;
+  right: 0%;
+  right: auto;
+  font-size: 80px;
+  animation-name: intro;
+  animation-duration: 2.3s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+}  
+
+@keyframes bordername{
+  0%   {height: 0px; opacity: 0.2;}
+  15% {height: 100%; opacity: 0.5;}
+  70% {height: 100%; opacity: 0.7;}
+  100% {height: 0%; opacity: 0;}
+} 
+@keyframes bordername2{
+  0%   {height: 0px; opacity: 0.2;}
+   15%  {height: 85%; opacity: 0.5;}
+  70%  {height: 85%; opacity: 0.7;} 
+  100% {height: 0%; opacity: 0;}
+} 
+@keyframes bordername3{
+  0%   {height: 0px; opacity: 0.2;}
+   25%  {height: 75%; opacity: 0.5;}
+  70%  {height: 75%; opacity: 0.7;} 
+  100% {height: 0%; opacity: 0;}
+}
+
+/* menü kısmı*/
+.container{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    
+    min-height: 100%;
+    background: black;
+    background: url("img.jpg") center center;
+    background-size: cover;
+   
+    justify-content: space-between;
+    z-index: -1;
+    
+}
+.box{
+    text-align: center;
+   
+    max-width: 200px;
+    max-height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+
+}
+
+.box-1{
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+
+  
+ left: 5%;
+  
+  height: 40%;
+  width: 40%;
+  bottom: -135%;
+  
+  animation-name: example;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  position: fixed;
+    
+}
+@keyframes example{
+    0%{bottom: -50%;}
+    35%{bottom: 35%;}
+    70%{bottom: 35%;}
+    100%{bottom: -50%;}
+    
+}
+/* @keyframes example {      
+    0%   {width: 0%;height: 0%; opacity: 0;};
+    10%   {width: 12%;height: 40%; opacity: 1;};
+    
+    90%   {width: 12%; height: 40%;opacity: 1;};
+   100%  { width: 0%; height: 0%;opacity: 1;} 
+   
+   
+} */
+.box-3{
+  background-size: 100% auto;
+   
+   background-size: 100% auto;
+   text-align:center;
+   height: 40%;
+   width: 40%;
+   bottom: 25%;
+   font-size: 30px;
+   animation-name: example2;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  position: fixed;
+  right: 0%;
+  font-family: 'Permanent Marker', cursive;
+   color:white ;
+}
+#text1{
+    bottom:-130%;
+    animation-name: text1;
+  animation-duration: 4s;
+}
+#text2{
+    bottom: -150%;
+    animation-name: text2;
+  animation-duration: 4s;
+}
+#text3{
+    bottom: -250%;
+    animation-name: text3;
+  animation-duration: 4s;
+}
+#head{
+    animation-name: head;
+    animation-duration: 5.2s;
+    bottom:-40%;
+    font-size: 42px;
+}
+@keyframes head{
+    0%{bottom: -50%;}
+    35%{bottom: 40%;}
+    70%{bottom: 40%;}
+    100%{bottom: -50%;}
+}
+/* @keyframes text1{
+    0% {bottom: -50%}
+    35%{bottom: 30%;}
+    70%{bottom: 30%;}
+    100%{bottom: -50%;}
+}
+@keyframes text2{
+    0%{bottom: -150%;}
+    35%{bottom: 20%;}
+    70%{bottom: 20%;}
+    100%{bottom: -150%;}
+}
+@keyframes text3{
+    0%{bottom: -250%;}
+    35%{bottom: 10%;}
+    70%{bottom: 10%;}
+    100%{bottom: -250%;}
+} */
+
+@keyframes example2{
+    0%{bottom: -50%;}
+    35%{bottom: 35%;}
+    70%{bottom: 35%;}
+    100%{bottom: -50%;}
+}
+@media(max-width:600px){
+  .box-1{
+    left:35%;
+    bottom: 60%;
+    animation-name: example;
+  animation-duration: 6s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  position: fixed;
+  }
+  @keyframes example {
+   
+      0%{bottom: -50%;}
+      20%{bottom: 60%;}
+      80%{bottom: 60%;}
+      100%{bottom: -50%;}
+     
+  }
+  .box-3{
+    left:35%;
+    bottom: 10%;
+    animation-name: example2;
+  animation-duration: 7s;
+  animation-direction: alternate;
+  animation-iteration-count: 1;
+  
+  position: fixed;
+  right: 0%;
+  font-family: 'Permanent Marker', cursive;
+   color:white ;
+}
+#text1{
+  bottom:15%;
+  animation-name: text1;
+animation-duration: 4s;
+}
+#text2{
+  bottom: 5%;
+  animation-name: text2;
+animation-duration: 4s;
+}
+#text3{
+  bottom:-5%;
+  animation-name: text3;
+animation-duration: 4s;
+
+}
+@keyframes text1{
+  0%{bottom: -50%;}
+  35%{bottom: 15%;}
+  70%{bottom: 15%;}
+  100%{bottom: -50%;}
+}
+@keyframes text2{
+  0%{bottom: -50%;}
+  35%{bottom: 5%;}
+  70%{bottom: 5%;}
+  100%{bottom: -50%;}
+}
+@keyframes text3{
+  0%{bottom: -50%;}
+  35%{bottom: -5%;}
+  70%{bottom: -5%;}
+  100%{bottom: -50%;}
+}
+#head{
+  animation-name: head;
+  animation-duration: 6s;
+  bottom:25%;
+  font-size: 42px;
+}
+
+@keyframes head{
+  0%{bottom: -50%;}
+  35%{bottom: 25%;}
+  70%{bottom: 25%;}
+  100%{bottom: -50%;}
+}
+.intro{
+  font-size: 60px;
+}
+
+}
+
+@media(max-width:450px){
+  .box-3{
+    font-size: 20px;
+  }
+  .intro{
+    font-size: 40px;
+  }
+}

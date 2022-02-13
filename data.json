@@ -1,0 +1,21 @@
+{
+    "burgers":[
+        {"name":"Option1","exp":"Burger 1.","url":"food-pics/burger.jpg"},
+        {"name":"Option2","exp":"Burger 2.","url":"burger.jpg"},
+        {"name":"Option3","exp":"Burger 3.","url":"burger.jpg"}
+    ],
+    "desserts":[
+        {"name":"Option1","exp":"Dessert 1.","url":"food-pics/dessert.jpg"},
+        {"name":"Option2","exp":"Dessert 2.","url":"dessert.jpg"},
+        {"name":"Option3","exp":"Dessert 3.","url":"dessert.jpg"}
+    ],
+    "sandwiches":[
+        {"name":"Option1","exp":"Sandwich 1.","url":"food-pics/sandwich.jpg"},
+        {"name":"Option2","exp":"Sandwich 2.","url":"sandwich.jpg"},
+        {"name":"Option3","exp":"Sandwich 3.","url":"sandwich.jpg"},
+        {"name":"Option4","exp":"Sandwich 4.","url":"sandwich.jpg"}
+    ],
+    "salads": [
+        { "name": "Option1", "exp": "Salad 1.", "url": "food-pics/salad.jpg"}
+    ]    
+}
