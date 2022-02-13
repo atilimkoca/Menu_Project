@@ -16,6 +16,7 @@
         {"name":"Option4","exp":"Sandwich 4.","url":"sandwich.jpg"}
     ],
     "salads": [
-        { "name": "Option1", "exp": "Salad 1.", "url": "food-pics/salad.jpg"}
+        { "name": "Option1", "exp": "Salad 1.", "url": "food-pics/salad.jpg"},
+        { "name": "Option2", "exp": "Salad 2.", "url": "food-pics/salad.jpg"}
     ]    
 }
